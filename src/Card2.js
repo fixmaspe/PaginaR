@@ -1,0 +1,14 @@
+import React from "react";
+import Card from "./Card";
+
+const Card2 = () =>{
+	return (<div className="card-deck">
+        <Card image="https://images.unsplash.com/photo-1442115597578-2d0fb2413734?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQzODE1OTYz&ixlib=rb-1.2.1&dpr=2&auto=format&fit=crop&w=120&h=200&q=60" title=" Card#1" descripcion="lorem ipsum es simplemente texto ficticio de la industria de la imprenta y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios."/>
+        <Card image="https://images.unsplash.com/19/desktop.JPG?ixlib=rb-1.2.1&dpr=2&auto=format&fit=crop&w=120&h=200&q=60" title="Card#2" descripcion="lorem ipsum es simplemente texto ficticio de la industria de la imprenta y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios."/>
+        <Card image="https://images.unsplash.com/1/bag-and-hands.jpg?ixlib=rb-1.2.1&dpr=2&auto=format&fit=crop&w=120&h=200&q=60" title="Card#3" descripcion="lorem ipsum es simplemente texto ficticio de la industria de la imprenta y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios."/>
+        <Card image="https://images.unsplash.com/photo-1441986380878-c4248f5b8b5b?ixlib=rb-1.2.1&dpr=2&auto=format&fit=crop&w=120&h=200&q=60" title="Card#4" descripcion="lorem ipsum es simplemente texto ficticio de la industria de la imprenta y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios."/>
+      </div>)
+}
+
+
+export default Card2;
